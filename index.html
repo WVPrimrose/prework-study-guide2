@@ -1,5 +1,6 @@
-<!DOCTYPE html>
+<!DCOTYPE html>
 <html lang="en">
+<<<<<<< HEAD
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,5 +20,166 @@
       <p>I can code!</p>
     </footer>
     <script src="./assets/script.js"></script>
+=======
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0
+<title> Prework Study Guide </title>
+</head>
+<body>
+  <header id="top"
+		<h1>Prework Study Guide</h1>
+		<img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+	</header>
+	<main>
+		<dl>
+		<dt><h2>Git</h2></dt>
+			<dd><p>A version control system that lets you manage and keep track of each version of the project.</p></dd>
+			</dl>
+			</br>
+			<h4> Accessing Git </h4>
+				<p>Use the command line!</p>
+				<p><b>BUT</b> Always start with git <b><u>BEFORE</b> all other words!</u></p>
+			</br>
+			<h4> Benefits of Git Commands</h4>
+			<ul>
+				<li>can initiate repos</li>
+				<li>add/change/edit code</li>
+				<li>view different versions</li>
+				<ul>
+					<li>and they're always saved no matter what using a commit!</li>
+			</ul>
+</ul>
+			</br>
+			<h4> <b> NOTE: </b> </h4>
+			<p> This is for tracking changes on your local computer, <b> not </b> collaboring with others. </p>
+				<p>Why Github is around...</p>
+				<dd>a cloud-based hosting service that allows to keep track of projects inside of peos remotely:
+					<ul>
+						<li> storing code </li>
+						<li>collaborating with others</li>
+					</ul>
+					</dd>
+			</br>
+			<ul><h4>Terms and Commands</h4></ul>
+				
+				<li>branch: a copy or version of the code, so that it can be worked on independently to prevent overwriting each others' work</li>
+					<ul>
+						<li> Main (or default branch): the starting branch that will hold the final product of the project</li>
+						<h5>NO CODING DIRECTLY ON THE MAIN BRANCH!!!!!</h5>
+						<li> Feature (or working branch): a branch that adds any new features being currently developed but not merged
+						</br>into the main branch </li>
+						<li> Developed branch: hold code for multiple feautre branches but not fully merged into the main branch</li>
+					</ul>
+				<p>NOTE: Any changes to any feature branches that have NOT been merged into the main branch do NOT effect the final product</br>
+				UNTIL they're approved, tested, and merged, so any new features don't disrupt the main code.</p>
+				<li>That's why we have pull requests (PRs): other developers can comment and/or request any changes affecting the final product.</li>
+			</ul>
+			<ul><h4>Commands</h4></ul>
+				<li>git status: shows what branch we are currently on</li>
+				<li>git checkout -b [branch-name]: creates a new branch and switches over to it</li>
+				<li>git add: adds any file to the next commit stage</li>
+				<li>git merge [branch]:merging a branch to a current one</li>
+				<p> NOTE: doesn't necessarily have to be the main branch</p>
+				<li>git commit -m "[descriptive message]": adding what we did to the code through descriptive messages, so we can communicate to</br>
+				our team members.</li>
+				<p> NOTE: Please commit often, especially because communication can be difficult through the Internet,</br>
+				especially through different timezones.</p>
+			</ul>
+			<p>And a list of <a href="https://education.github.com/git-cheat-sheet-education.pdf"> other commands</a> that might take up more time.</br> 
+			I might as well make a separate webpage to do so.  You might as well call it cheating for sure!</p>
+		<dl>
+		<dt><h2>HTML</h2></dt>
+		<dd> stands for Hypertext Markup Language provides the structure for ALL webpages.  Elements work together to provide content for ALL pages.</dd>
+			<ol><h4>Different Elements of HTML</h4></ol>
+				<li>!DOCTYPE html shows what document type should expect when your browser opens it.</li>
+				<li>HTML</li>
+				<p>NOTE: If these two elements aren't present, BIG BUGS will appear!</p>
+				<p>In other words, the webpage won't process correctly through the browser!</p>
+				<dl>
+				<dt><li>Head</li></dt>
+					<dd>Contains any information about the web application, so the browser can effectively process it</dd>
+				<p>NOTE: Also called Metadata</p>
+				
+				<ul><h5>Head Elements</h5>
+					<li>title: displays the title of the webpage</li>
+					<li>style: defines CCS styles in an HTML document</li>
+					<li>base: defines the base URL (universal resource link) for the webspage</li>
+					<li>meta: defines any metadata such as author, keywords, characteristics, viewpoints, character sets</li>
+					<li>script: embeds the client-side scripts within an HTML document</li>
+				</ul>
+				<dl>
+				  <dt><li>Body</li></dt>
+					  <dd>Contains any content seen on the web application, so users can view in in their browser.</dd>
+				<ul><h5>Body Elements</h5>
+					<li>Headings</li>
+					<li>Paragraph</li>
+					<li>Table</li>
+						<ul><p>Table Parts</p>
+						<li>Caption:what the table is about (the title)</li>
+						<li>Table Row:</li>
+						<li>Table Data: any data inside the table cell </li>
+						<li>Table Heading:</li>
+            </ul>
+					<li>Lists</li>
+					<li>Images and Multimedia</li>
+					<li>Links</li>
+					<li>Multimedia</li>
+					<li>Break</li>
+	<dl>
+	  <dt><h2>CCS</h2></dt>
+		  <dd> stands for Cascading Style Sheets provides how any webpage content should be presented through rules for specific HTML elements.</dd>
+	</dl>
+		  <ul><h4>Examples</h4>
+		<li>colors</li>
+		<li>aesthetics</li>
+		<li>visual layouts</li>
+		<li>organization</li>
+		  </ul>
+		  <ol><h4>Different Ways</h4>
+		  <dl>
+		  <dt><li>Inline</li></dt>
+		<dd>Styling CCS rules directly into the HTML file's elements.  Problem is you have to style each and every individual HTML tag.</dd>
+	<dt><li>Internal</li></dt>
+		<dd>Styling CCS rules directly into the HTML file's head.  If you have multiple styling elements, this makes changes harder to navigate</dd>
+	<dt><li>External</li></dt>
+		<dd>Stying CCS rules in a separate file that'll be linked to the HTML file's head.  This is the prefered method because this makes changes<br>
+		  	much easier in an organizaed fashion.</dd>
+	  </dl>
+	  <dl>
+	<dt><h2>JS JavaScript</h2></dt>
+	<dd>A programing language that allows users to interact with websites.
+		<br>
+		This will allow websites to have more powerful effects, interactivity, data communication to increase user experience.</dd>
+		</dl>
+		<p>FUN FACT:Invented by Bredan Eich</p>
+		<ul><h4>Variables</h4>
+		<li>Numbers</li>
+			<ul>
+			  <li>Showcase ALL numbers</li>
+			  <li>Ex. let myVariable = 10;</li>
+			  </ul>
+		  <li>Strings</li>
+			  <ul>
+			  <li>Showcase ALL textual data</li>
+			  <li>Ex. let myVariable = "John";</li>
+			  </ul>
+		  <li>Boolean</li>
+			  <ul>
+			  <li>True or false data</li>
+			  <li>Ex. let myVariable = true;</li>
+			  </ul>
+		  <li>Array</li>
+			  <ul>
+			  <li>Allows you to store mulitple data values into a single reference</li>
+			  <li>Ex. let myVariable = [1, "Joe", 10];</li>
+			  </ul>
+		  </ul>		
+</main>
+<footer>
+	  <p> <b>I can code!</b> </p>
+  </footer>
+>>>>>>> e5b469418b48486c9bfd5fb2781dfc15066f0292
   </body>
-</html>
+</html>	
